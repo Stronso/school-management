@@ -1,0 +1,30 @@
+/* User Dashboard Styles */
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: transparent;
+    color: #1f2937; /* gray-800 */
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    min-height: 100vh;
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content area */
+main.py-4 {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 1rem;
+}
